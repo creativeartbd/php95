@@ -1,0 +1,86 @@
+body {
+	background-color : #000;
+	color : #fff;
+}
+
+.one {
+	display: none;
+}
+
+.two {
+	visibility: hidden;
+}
+
+.nav ul {
+	padding : 0;
+	margin : 0;
+	background-color: red;	
+}
+.nav ul li {
+	list-style: none;
+	display: inline;
+	border-right : 1px solid #fff;
+}
+.nav ul li:last-child {	
+	border-right : 0;
+}
+.nav ul li a {
+	color : #fff;
+	padding : 10px;
+	display: inline-block;
+	text-decoration: none;	
+}
+
+.test h3 {
+	color : yellow;
+}
+/*
+.test h3:first-child {
+	color : #fff;
+}
+
+.test h3:last-child {
+	color : #fff;
+}*/
+
+.test h3:nth-child( 3n + 0) {
+	color : purple;
+	visibility: hidden;
+}
+
+::selection {
+	background-color: red;
+}
+/*
+2n + 0 = 2X0 + 0 = 0
+2n + 0 = 2X1 + 0 = 2*/
+
+p::first-line {
+	background-color : red;
+}
+
+p::first-letter {
+	font-size: 100px;
+}
+
+.love::before {
+	content : "I ";
+}
+
+.love::after {
+	content : " PHP";
+}
+
+p {
+	letter-spacing: 10px;
+	word-spacing: 10px;
+}
+
+.top  {
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	white-space: pre;
+}
+.top::first-line  {
+	background-color: transparent;
+}

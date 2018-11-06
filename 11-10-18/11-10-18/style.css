@@ -1,0 +1,54 @@
+body {
+	background-color: #000;
+	color : #fff;
+}
+
+.container {
+	width : 900px;
+	padding : 20px;
+	margin : 0 auto;
+	border : 2px solid green;
+	position: relative;
+}
+
+.relative {
+	position: relative;
+	left : 200px;
+	border : 2px solid red;
+	padding : 20px;
+}
+
+.absolute {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border : 2px solid yellow;
+	width: 200px;
+	background-color: #fff;
+	color : #000;
+}
+
+.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	border : 2px dotted red;
+	width: 200px;
+	background-color: red;
+	color : #fff;
+}
+
+ul li {
+	display: inline;
+}
+ul li a {
+	font-size: 50px;
+	color : red;
+	margin-right: 10px;
+}
+
+.sticky {
+	position: sticky;
+	top : 0;
+	z-index: 1;
+}

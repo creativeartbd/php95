@@ -1,0 +1,6 @@
+body {
+	background-color : purple;
+	background-image: url("../images/php-2.png");
+	/*background-repeat: no-repeat;*/
+	background-repeat: repeat-y;
+}

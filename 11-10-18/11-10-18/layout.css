@@ -1,0 +1,156 @@
+/*.left_column {
+	background-color:  red;
+	color : #fff;
+	text-align: center;
+	border : 1px solid green;
+	margin : 10px;
+	padding : 10px;
+	width : 200px;
+	float: left;
+}
+
+.middle_column {
+	background-color:  green;
+	color : #fff;
+	text-align: center;
+	border : 1px solid green;
+	margin : 10px;
+	padding : 10px;
+	width : 200px;
+	float: left;
+}
+
+.right_column {
+	background-color:  blue;
+	color : #fff;
+	text-align: center;
+	border : 1px solid green;
+	margin : 10px;
+	padding : 10px;
+	width : 200px;
+	float: right;
+}*/
+
+body {
+	color : #000;
+	outline: 0;
+}
+
+.wrapper {
+	width: 958px;
+	margin : 0 auto;
+	border : 2px solid green;
+	padding : 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+.header {
+	border : 2px solid red;
+	/*overflow: hidden;*/
+	float: left;
+	width : 926px;
+	margin-bottom: 15px;
+	padding : 15px;
+}
+
+.header .logo {
+	float: left;
+	margin : 15px;	
+	width: 200px;
+}
+
+img{	
+	width : 100%;
+	height: auto;
+}
+
+.header .nav {
+	margin : 15px 15px 0 0;
+	float: right;
+}
+
+.header .nav ul {
+	padding : 0;
+	margin : 0;
+}
+
+.header .nav ul li {
+	list-style: none;	
+	display: inline;
+	float: left;
+}
+
+.header .nav ul li a {		
+	display: inline-block;
+	padding : 15px;
+	border : 1px solid green;
+	text-decoration: none;
+	background-color: green;
+	color : #fff;
+}
+
+.header .nav ul li a:hover {	
+	background-color: red;
+	color : #fff;
+}
+
+.header .nav ul li ul {
+	position: absolute;
+	display: none;
+}
+
+.header .nav ul li:hover > ul {
+	display: block;
+}
+
+.header .nav ul li ul li{
+	clear: both;
+	width : 100%;	
+}
+
+.container {
+	border : 2px solid blue;
+	float: left;
+	padding : 15px;
+	width : 926px;
+	margin-bottom: 15px;
+	display: flex;
+}
+
+.left_column {
+	float: left;
+	border : 2px solid brown;
+	width : 668px;
+	padding : 15px;
+}
+/*992 -4 = 988 - 30 = 958 */
+
+.footer {
+	margin-top : 15px;
+	clear: both;
+	border : 2px solid green ;
+	padding : 15px;
+}
+
+.sidebar {
+    border: 2px solid green;
+    float: left;
+    width: 173px;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+input[type="text"], input[type="password"] {
+	width : 100px;
+	padding : 2px;
+	border : 1px solid green;
+	border-radius: 2px;
+}
+input[type="submit"] {
+	background-color : tomato;
+	border : none;
+	padding : 10px;
+	font-weight: bold;
+	width : 100%;
+}

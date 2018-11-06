@@ -1,0 +1,115 @@
+/*@import url('../font/habijab.ttf apnar font file ta kotha ase');*/
+
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+/*peasude class*/
+a:link {
+	color : red;
+}
+
+a:visited {
+	color : green;
+}
+
+a:hover {
+	color : yellow;
+}
+
+a:active {
+	color : #000;
+}
+
+div:hover {
+	background-color : red;
+}
+
+.box1 {
+	font-family: 'Anton', sans-serif;
+	border : 10px solid blue;
+	padding : 20px;
+	margin : 10px;
+	/*background-color: yellow;*/
+	background-clip:  content-box;
+	/*background-image: url("images/football.jpg");*/
+	background-color: green;
+	color : #fff;
+	text-shadow: 10px 1px 1px #000;
+	outline: 3px solid black;
+	outline-offset: 4px;
+	outline-style: dotted;	
+	border-radius: 100px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	box-shadow: 11px 1px 20px #800023;
+	/*margin-top: -100px;*/
+	font-size: 20px;
+
+}
+
+.box2 {
+	border : 5px dashed #000;
+	margin-bottom: 50px;
+	padding : 10px;
+	/*width : 550px;*/
+	max-width: 500px;
+	height : 200px;
+	/*min-height: */
+	overflow: scroll;
+	/*overflow-y: hidden;*/
+	/*font-family: 'Charmonman', cursive;*/
+	text-transform: uppercase;
+	text-indent: 100px;
+	font-weight: 800;
+	font-style: italic;
+}
+
+.box3 {
+	border : 5px dashed #000;
+	margin-bottom: 50px;
+	padding : 10px;
+	width : 60%;
+}
+
+
+
+
+/*1 em = 16px / current browser font size...*/
+
+ul li {
+	list-style: none;	
+	display: inline;
+}
+
+ul li a {	
+	text-decoration: none;
+}
+
+/*CSS combinator 
+	1. Space Selector               p a
+	2. Child selector               div > p
+	3. adjacent sibling selector    div + p
+	4. general sibling selector     div ~ p*/
+
+.display strong {
+	color : red;
+	display: block;
+	border : 1px solid green;
+	width : 300px;
+}
+
+.display2 strong {
+	color : red;
+	display: inline;
+	border : 1px solid green;
+	width : 300px;
+}
+
+.display3 strong {
+	color : red;
+	display: inline-block;
+	border : 1px solid green;
+	width : 300px;
+}

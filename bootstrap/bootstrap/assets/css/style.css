@@ -1,0 +1,31 @@
+.my_container {	
+	border : 2px solid green;
+	background-color : red;
+	color : #fff;
+	margin : 50px;
+}
+
+/*
+css smedia query tutorial
+*/
+
+@media screen and ( max-width: 768px) {
+	.my_container {	
+		background-color: yellow;
+		font-size: 50px;
+		color : #000;
+	}
+
+}
+
+.container {
+	background-color: #ddd;
+}
+
+.container-fluid {
+	background-color: #ccc;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: red;
+}

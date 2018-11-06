@@ -1,0 +1,154 @@
+body {
+	background-color: #fff;
+	font-size: 14px;
+	font-family: Arial;
+}
+* {
+	padding : 0;
+	margin : 0;
+	outline: 0;
+}
+#header {
+	background-image: url("../images/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 550px;
+	color : #fff;
+}
+.container {
+	width : 1200px;	
+	margin : 0 auto;
+	position: relative;
+	padding-top : 50px;	
+}
+.logo {
+	float: left;
+	position: relative;
+	width : 100px;	
+	font-size: 30px;
+}
+.nav {	
+	float: right;
+	position: relative;
+}
+.nav ul {	
+	padding : 0;
+	margin : 0;
+	overflow: hidden;	
+}
+.nav ul li {
+	display: inline-block;	
+	/*border : 1px solid red;*/
+	
+}
+.nav ul li a {
+	display: inline-block;
+	color : #fff;
+	margin-right : 20px;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+.active {
+	border-bottom: 1px solid #fff;
+	border-right-width: 100px;
+}
+.header_content {
+	width : 900px;
+	clear: both;	
+	margin : 0 auto;
+	padding-top : 100px;
+	text-align: center;
+}
+.header_content h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.header_content p {
+	font-size: 16px;	
+	margin-bottom: 30px;
+}
+.btn {
+    border: 0;
+    background-color: #fff;
+    padding: 15px 40px;
+    border-radius: 3px;
+    font-weight: bold;
+    color : #000;
+}
+.blue {
+	background-color: blue;
+	color : #fff;
+}
+
+#welcome {
+	padding : 100px 0;
+	overflow: hidden;
+}
+#welcome h2{
+	text-align: center;
+	font-size: 30px;
+}
+.horizontal {
+	border-bottom : 3px solid blue;
+	width: 50px;
+	margin : 0 auto;
+	margin-bottom: 50px;
+}
+.feature {
+    border: 1px solid #ddd;
+    width: 250px;
+    float: left;
+    position: relative;
+    padding: 30px;
+    margin: 30px 30px 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+.feature i, h3, p, a {
+	padding-bottom: 15px;
+}
+.feature a {
+	color : #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+.feature a:after {
+	content: '...';
+}
+
+#featured {
+	padding : 100px 0;
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+#featured h2{
+	text-align: center;
+	font-size: 30px;
+}
+.featured_image img{
+	width : 350px;
+	height: auto;
+	margin-right: 70px;
+	margin-bottom: 70px
+}
+.featured_image img:nth-child(3){	
+	margin-right: 0;
+	margin-bottom: : 70px;
+}
+.featured_image img:nth-child(6){	
+	margin-right: 0;
+	margin-bottom: 70px;
+}
+
+
+.counter {
+    border: 3px solid blue;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    height: 35px;
+    padding-top: 15px;
+    background: orange;
+    color: #fff;
+}

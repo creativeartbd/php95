@@ -1,0 +1,54 @@
+body {
+	background-image: url("../images/football.jpg");
+	background-repeat: no-repeat;
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+	/*background-size: cover;*/
+	background-position: bottom left;
+	background-attachment: scroll;
+}
+
+.home {
+	background-color: red;
+}
+
+.home_2 {
+	background-color: rgba(0,0,255, 0.5);
+	font-size: 50px;
+	color : #fff;
+}
+
+/* 
+
+hex 	-	#ffffff
+rgb 	rgb(255, 255, 255);
+rgba    rgba(255, 255, 255, 0.5);
+color   while
+
+r = red
+g = green
+b = blue
+
+
+ */
+div {
+	/*border : 10px dashed green;*/
+	border-left : 10px dashed green;
+	border-right : 20px inset green;
+	border-bottom : 15px dotted green;
+	border-top : 5px solid green;
+	margin-bottom : 100px;
+	margin-left : 50px;
+	margin-right: 50px;
+	padding : 100px;
+	background-color : yellow;
+}
+
+/*. = class
+# = id*/
+
+
+
+.about_us {
+	background-color: green;
+}
