@@ -13,7 +13,7 @@ for
 forearch
 */
 
-$price = 30;
+$price = 130;
 
 switch ($price) {
 	case 10:
